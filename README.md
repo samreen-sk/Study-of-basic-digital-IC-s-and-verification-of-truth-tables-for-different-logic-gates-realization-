@@ -62,17 +62,17 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 ## Program:
-module expo(a,b,y1,y2,y3,y4,y5,y6,y7);
-input a,b;
-output y1,y2,y3,y4,y5,y6,y7;
-and(y1,a,b);
-or(y2,a,b);
-not(y3,a);
-xor(y4,a,b);
-nand(y5,a,b);
-nor(y6,a,b);
-xnor(y7,a,b);
-endmodule
+                         module expo(a,b,y1,y2,y3,y4,y5,y6,y7);
+                         input a,b;
+                         output y1,y2,y3,y4,y5,y6,y7;
+                         and(y1,a,b);
+                         or(y2,a,b);
+                         not(y3,a);
+                         xor(y4,a,b);
+                         nand(y5,a,b);
+                         nor(y6,a,b);
+                         xnor(y7,a,b);
+                         endmodule
 
 # Logic symbol & Truthtable:
 ![233085606-f82de0f7-ef67-4e7e-b9cd-7ee41c6262bb](https://github.com/samreen-sk/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149347632/8b7fe0f7-e9ce-41d5-9edd-4141bd2c1744)
